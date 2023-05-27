@@ -1,0 +1,73 @@
+body {
+    background-image: url('assets/science.jpg');
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: center;
+    background-size: cover;
+ /* or scroll-behavior: instant; */
+  
+  }
+  
+  
+  #newsheading {
+    font-family: 'Space Mono', monospace;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    0% {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    100% {
+      text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+    }
+  }
+  
+  .updated-timestamp {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #707070;
+    opacity: 1;
+  }
+  
+  .navbar {
+    background-color: cadetblue;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar:hover {
+    background-color: cadetblue;
+    
+  }
+  
+  .card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  /* .card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  } */
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+    /* transition: opacity 0.3s ease-in-out; */
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  .card:hover::before {
+    opacity: 1;
+  }
+  
