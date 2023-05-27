@@ -13,7 +13,7 @@ export default class Newsitem extends Component {
                         <h5 className="card-title">{(title === null) ? '' : title.slice(0, 60) + '.....'}</h5>
                         <p className="card-text">{(description === null) ? title.slice(0, 80) + '....' : description.slice(0, 80) + '.....'}</p>
                         {/* <p>Source: {author}</p> */}
-                        <p class='updated-timestamp'>Published at: {publishedtime.slice(0, 10)} </p>
+                        <p className='updated-timestamp'>Published at: {publishedtime.slice(0, 10)} </p>
                         <p><a href={newsurl} target="_blank"><span className="badge rounded-pill text-bg-secondary">By {!author ? "Unknown" : author}</span></a></p>
                         <a href={newsurl} target="_blank" className="btn btn-primary ">Read More</a>
                         

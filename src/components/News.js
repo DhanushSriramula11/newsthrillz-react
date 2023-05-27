@@ -213,8 +213,8 @@ export default class News extends Component {
                 })}
             </div>
             <div className="d-flex justify-content-between">
-            <button type="button" disabled={this.state.page<=1} class="btn btn-dark" onClick={this.handleOnPrevious}> ←Previous</button>
-            <button type="button" disabled={(this.state.articles_avaliable<this.state.page_size)} class="btn btn-dark" onClick={this.handleOnNext}>Next→  </button>
+            <button type="button" disabled={this.state.page<=1} className="btn btn-dark" onClick={this.handleOnPrevious}> ←Previous</button>
+            <button type="button" disabled={(this.state.articles_avaliable<this.state.page_size)} className="btn btn-dark" onClick={this.handleOnNext}>Next→  </button>
             {console.log('present articles length',this.state.articles_avaliable)}
             </div>
             
