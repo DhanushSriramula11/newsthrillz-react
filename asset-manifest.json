@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/newsthrillz-react/static/css/main.9ada359e.css",
+    "main.js": "/newsthrillz-react/static/js/main.d8c913c8.js",
+    "static/js/787.bb388cdb.chunk.js": "/newsthrillz-react/static/js/787.bb388cdb.chunk.js",
+    "static/media/entertainment.jpg": "/newsthrillz-react/static/media/entertainment.1405ae0659b9710c9873.jpg",
+    "static/media/technology.jpg": "/newsthrillz-react/static/media/technology.af6f5d2093eb5b607e2a.jpg",
+    "static/media/business.jpg": "/newsthrillz-react/static/media/business.49b1aef348e86a7427a8.jpg",
+    "static/media/general.jpg": "/newsthrillz-react/static/media/general.8b60858c1fa1a04d48fc.jpg",
+    "static/media/23328.jpg": "/newsthrillz-react/static/media/23328.7207da9fc35bd6015616.jpg",
+    "static/media/health.jpg": "/newsthrillz-react/static/media/health.9b41cc6b11c91a84b952.jpg",
+    "static/media/23327.jpg": "/newsthrillz-react/static/media/23327.ede536f2c07cee83b1b3.jpg",
+    "static/media/sports.jpg": "/newsthrillz-react/static/media/sports.cd1d4d5ed8387ea94240.jpg",
+    "static/media/back-ground-img.jpg": "/newsthrillz-react/static/media/back-ground-img.512b530c798e66841e5e.jpg",
+    "static/media/final selection 1.jpg": "/newsthrillz-react/static/media/final selection 1.0abe957e8f262868fdad.jpg",
+    "static/media/science.jpg": "/newsthrillz-react/static/media/science.6d0215dcf7bd128cf158.jpg",
+    "static/media/null-display-image.jpg": "/newsthrillz-react/static/media/null-display-image.d8da792189d7944a741a.jpg",
+    "static/media/loading spinner final.gif": "/newsthrillz-react/static/media/loading spinner final.b75b820d5677a45b26bd.gif",
+    "index.html": "/newsthrillz-react/index.html",
+    "main.9ada359e.css.map": "/newsthrillz-react/static/css/main.9ada359e.css.map",
+    "main.d8c913c8.js.map": "/newsthrillz-react/static/js/main.d8c913c8.js.map",
+    "787.bb388cdb.chunk.js.map": "/newsthrillz-react/static/js/787.bb388cdb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ada359e.css",
+    "static/js/main.d8c913c8.js"
+  ]
+}
